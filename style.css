@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f6eadf;
+    color: #4a0a0f;
+    font-family: 'urbanist', sans-serif;
+    line-height: 1.6;
+    padding: 2rem 1rem;
+}
+nav{
+    background-color: #4a0a0f;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.menu-mobile{
+    display: none;
+    background-color:#4a0a0f;
+}
+.menu-mobile a{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #4a0a0f;
+}
+.code{
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+}
+#origem-click{
+    display: none;
+}
